@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Mystery+Quest&family=Ruthie&display=swap');
+
+
+
+  #brand{
+    padding-left: 1rem;
+}
+
+.navbar{
+  width: 100% !important;
+  margin: auto;
+}
+
+ .navbar-toggler-icon {
+    color: "white"
+}
+
+a.link {
+  margin-left: auto ;
+  padding: 0 1rem ;
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+
+ a.link:hover{
+    color: orange !important;
+    text-decoration: none;
+}
+
+
+a.active{
+  color: orange !important;
+  font-size: 1.1rem;
+}
+

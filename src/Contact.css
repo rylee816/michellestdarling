@@ -1,0 +1,84 @@
+
+
+.Contact {
+    background-image: url("https://i.pinimg.com/originals/a3/63/49/a36349ef844164f39cab94740b88bf74.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contact .container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(236, 131, 11);
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .8); */
+    font-family: "Mystery Quest", cursive;
+    /* height: 100vh; */
+
+}
+
+.Contact form{
+    background: white;
+    padding: 100px;
+    margin: 0 auto;
+    border-radius: 2em;
+    height: 90%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .5);
+    font-size: 1.4rem;
+}
+
+
+.Contact h1 {
+    line-height: 5rem;
+    padding: 1rem 2rem;
+    width: 600px;
+    margin: 2rem auto;
+}
+
+ /* .Contact .container {
+    background: white;
+}  */
+
+.Contact button{
+    width: auto;
+    padding: 0 2rem;
+    margin-bottom: 5rem;
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+    text-decoration: none;
+}
+
+textarea:focus{
+    outline: 2px solid rgb(51, 207, 255);
+    box-shadow: 0px 0px 4px rgb(51, 207, 255);
+}
+
+@media (max-width: 1200px){
+   
+}
+
+@media (max-width: 700px){
+    .Contact {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    
+    .navbar{
+        background: pink !important;
+        margin: auto;
+        width: 100vw;
+    }
+    .Contact form{
+      width: 100%;
+      padding: 50px 20px;
+      text-align: center;
+    }
+}
+

@@ -1,0 +1,69 @@
+.About {
+  box-sizing: border-box;
+  position: relative;
+  padding: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.pinimg.com/originals/a3/63/49/a36349ef844164f39cab94740b88bf74.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.About .michelle-img {
+  width: 450px !important;
+  height: 618px !important;
+}
+
+.About-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 4rem;
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 600px;
+  /* font-family: "Mystery Quest", cursive; */
+  text-align: center;
+}
+
+.text-image img {
+  width: 200px;
+}
+
+.About-text img {
+  border-radius: 50%;
+}
+
+.About-text h3, p{
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .About .michelle-img {
+    display: none;
+  }
+}
+
+@media (max-width: 700px){
+ 
+ .About{
+  display: flex;
+  /* align-self: flex-start; */
+ }   
+ .About-text{
+  margin-top: -130px;
+ }
+}

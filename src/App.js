@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Header";
+import Title from "./Title";
+import Gallery from "./Gallery";
+import About from "./About";
+import Pets from "./Pets";
+import Portraits from "./Portraits";
+import Contact from "./Contact"
+import Antiques from "./Antiques";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {FormspreeProvider} from "@formspree/react";
+import "./App.css";
+import PopArt from "./PopArt";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FormspreeProvider project="1588315754573331501">
+      <BrowserRouter>
+      <Header />
+        <Switch>
+        <Route exact path="/" component={Title} />
+        <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/about" component={About}/>
+        <Route exact path="/pets" component={Pets} />
+        <Route exact path="/portraits" component={Portraits} />
+        <Route exact path="/pop-art" component={PopArt}/>
+        <Route exact path="/contact" render={(props)=> <Contact {...props}/>} />
+        <Route exact path="/antiques" component={Antiques} />
+        <Route><h1 style={{color: "white"}}>Error 404: Not Found</h1></Route>
+        </Switch>
+      </BrowserRouter>
+      </FormspreeProvider>
     </div>
   );
 }

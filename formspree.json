@@ -1,0 +1,15 @@
+{
+    "forms": {
+        "contactMe": {
+            "name": "Contact Me",
+            "actions": 
+            [{"type": "email", "to": "michellestdarling@gmail.com"}],
+            "fields": {
+                "email": {
+                    "required": true,
+                    "type": "email"
+                }
+            }
+        }
+    }
+}
