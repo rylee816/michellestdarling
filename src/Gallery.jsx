@@ -29,10 +29,10 @@ const images = [
 export default function Gallery() {
   return (
     <div className="Gallery">
-       <GalleryCard img={images[0].img} text={images[0].text}category="portraits"/>
-       <GalleryCard img={images[1].img} text={images[1].text}category="pop-art"/>
-       <GalleryCard img={images[2].img} text={images[2].text}category="pets"/>
-       <GalleryCard img={images[3].img} text={images[3].text}category="antiques"/>
+       <GalleryCard img={images[0].img} text={images[0].text} category="portraits"/>
+       <GalleryCard img={images[1].img} text={images[1].text} category="pop-art"/>
+       <GalleryCard img={images[2].img} text={images[2].text} category="pets"/>
+       <GalleryCard img={images[3].img} text={images[3].text} category="antiques"/>
     </div>
   );
 }
