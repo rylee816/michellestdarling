@@ -55,6 +55,8 @@
       justify-content: center;
       margin: auto;
       gap: 5rem;
+      position: relative;
+      z-index: 1;
   }
 
   .icon-container i{
@@ -62,6 +64,10 @@
       font-size: 3em !important;
       color: white;
       margin-top: 2rem !important;
+  }
+
+  .icon-container a {
+    display: inline-block;
   }
 
   .icon-container i:hover{

@@ -32,9 +32,9 @@ export default function Title() {
           <Link exact to="/contact"><Button>Place an Order!</Button></Link>
         </div>
         <div className="icon-container">
-           <a href="https://facebook.com/paintingsbymichellewilliams"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-           <a href="https://instagram.com/paintings_by_msd"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-           <a href="https://etsy.com/shop/darlingvintageandart"><i class="fa fa-etsy" aria-hidden="true"></i></a>
+        <a href="https://facebook.com/paintingsbymichellewilliams"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://instagram.com/paintings_by_msd"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://etsy.com/shop/darlingvintageandart"><i class="fa fa-etsy" aria-hidden="true"></i></a>
         </div>
       <Gallery />
     </div>
