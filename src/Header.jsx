@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavLink from "react-router-dom/NavLink";
+import Link from "react-router-dom/Link"
 import "./Header.css"
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
     <div  id="#NavigationBar">
     <Navbar style={{ background: "#2e1f22" }} expand="lg">
     <Navbar.Brand>
-        <NavLink exact to="/michellestdarling" style={{ color: "white", fontFamily: "Ruthie", fontSize: "2.5rem", textDecoration: "none" }}><span id="brand">MSD</span></NavLink>
+        <Link exact to="/michellestdarling" style={{ color: "white", fontFamily: "Ruthie", fontSize: "2.5rem", textDecoration: "none" }}><span id="brand">MSD</span></Link>
       </Navbar.Brand>
       <Navbar.Toggle
         style={{ background: "white", opacity: ".7" }}
