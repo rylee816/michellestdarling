@@ -12,7 +12,9 @@ console.log(handleSubmit);
   if (state.succeeded) {
     return(
         <div style={{height: "100vh"}} className="Contact">
-            <h3 style={{paddingTop: "100px", textAlign: "center", width: "500px", margin:"auto"}}>Thank you! Your email has been sent! I look forward to getting back to you!</h3>;
+            <h3 style={{paddingTop: "100px", textAlign: "center", width: "100%", margin:"auto"}}>Thank you! </h3>
+            <h3 style={{textAlign: "center", width: "100%", margin:"auto"}}> Your email has been sent.</h3>
+            <h3 style={{textAlign: "center", width: "100%", margin: "auto"}}> I look forward to getting back to you!</h3>
         </div>
     ) 
   }
