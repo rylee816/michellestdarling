@@ -18,15 +18,11 @@ export default function Title() {
         </div>
         <div className="Title-header-text">
           <h3>
-            A collection of{" "}
-            <span id="artwork" className="word-artwork">
-              artwork
-            </span>{" "}
-            <span id="by">by</span>
+            A collection of artwork by
           </h3>
+        <h1>Michelle St. Darling</h1>
           {/* <div className="word-love"><h3><span id="love">LOVE</span></h3></div> */}
         </div>
-        <h1>Michelle St. Darling</h1>
         </header>
         <div id="circle">
           <Link exact to="/portraits"><h3><i class="fa fa-star-o" aria-hidden="true"></i>Portraits<i class="fa fa-star-o" aria-hidden="true"></i></h3></Link>

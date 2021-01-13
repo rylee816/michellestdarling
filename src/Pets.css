@@ -59,7 +59,8 @@
 }
 
 @media (max-width: 700px){
-    .Pets{
-    /* margin-right: 15px; */
+    .Pets img{
+     width: 360px;
+     height: 360px;
     }
 }

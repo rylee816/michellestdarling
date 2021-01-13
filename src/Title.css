@@ -18,6 +18,7 @@
     font-size: 5rem;
     text-shadow: 2px 5px 12px orange;
     animation: shadow 5s ease;
+    
   }
   
   
@@ -117,7 +118,7 @@
 
   .pinup {
       margin-top: 175px;
-      width: 500px;
+      width: 27%;
   }
 
 .btn-primary {
@@ -200,7 +201,8 @@
     .Title h1{
         font-size: 5rem;
         width: 50%;
-        /* margin-left: 10%; */
+        /* position: fixed; */
+        /* margin-left: 5rem; */
     }
     #circle h3{
         font-size: 2rem;
@@ -250,6 +252,9 @@
 
 
 @media screen and (max-width:700px){
+    *{
+        margin: 0;
+    }
  
     .Title-main{
         display: flex;
@@ -260,14 +265,21 @@
         text-align: center;
     }
 
+    .Title-header-text h3{
+        max-width: 100%;
+        margin-left: auto !important;
+    }
+
+
     .pinup{
-        width: 60%;
-        margin-top: 250px;
+        width: 50%;
+        margin-top: 90%;
         margin-left: 150px;
     }
      .star-2, .star-1, .star-3{
     display: none;
     }
+
 
     #circle{
         width: 100%;
@@ -281,12 +293,18 @@
         padding-top: 50px;
     }
     #circle h3{
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 4rem;
     }
     #circle button{
-        width: 300px;
+        width: 260px;
     }
+
+    .icon-container {
+        gap: 2.7rem;
+        width: 100%;
+    }
+
     .Title{
         padding: 50px 5%;
         margin: 0;
