@@ -80,5 +80,8 @@ textarea:focus{
       padding: 50px 20px;
       text-align: center;
     }
+    .Contact button{
+        font-size: 1.8rem;
+    }
 }
 
