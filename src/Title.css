@@ -20,6 +20,12 @@
     animation: shadow 5s ease;
     
   }
+
+  .Title-header-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
   
   
   .Title-header-text h3{
@@ -105,7 +111,7 @@
   .star-2{
     position: absolute;
     width: 200px;
-    margin-left: 90%;
+    margin-left: 35em;
     transform: rotate(10deg);
   }
 

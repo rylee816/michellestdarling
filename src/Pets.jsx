@@ -18,7 +18,7 @@ export default function Pets() {
             </div>
           );
         })}
-      <Link exact to={"/"}>Back</Link>
+      <Link exact to={"/michellestdarling"}>Back</Link>
       </div>
     </div>
   );
