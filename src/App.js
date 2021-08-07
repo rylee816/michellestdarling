@@ -20,7 +20,7 @@ function App() {
       <Header />
       <ScrollToTop>
         <Switch>
-        <Route exact path="/michellestdarling" component={Title} />
+        <Route exact path="/" component={Title} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/about" component={About}/>
         <Route exact path="/pets" component={Pets} />
