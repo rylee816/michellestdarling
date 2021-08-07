@@ -10,7 +10,7 @@ export default function Header() {
     <div  id="#NavigationBar">
     <Navbar style={{ background: "#2e1f22" }} expand="lg">
     <Navbar.Brand>
-        <Link exact to="/michellestdarling" style={{ color: "white", fontFamily: "Ruthie", fontSize: "2.5rem", textDecoration: "none" }}><span id="brand">MSD</span></Link>
+        <Link exact to="/" style={{ color: "white", fontFamily: "Ruthie", fontSize: "2.5rem", textDecoration: "none" }}><span id="brand">MSD</span></Link>
       </Navbar.Brand>
       <Navbar.Toggle
         style={{ background: "white", opacity: ".7" }}
@@ -18,7 +18,7 @@ export default function Header() {
       />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item><NavLink className="link" style={{ color: "white" }} exact to="/michellestdarling">
+          <Nav.Item><NavLink className="link" style={{ color: "white" }} exact to="/">
             Home
           </NavLink></Nav.Item>
           <Nav.Item><NavLink className="link" style={{ color: "white" }} exact to="/about">
