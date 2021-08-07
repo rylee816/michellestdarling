@@ -22,7 +22,7 @@ const images = [
   },
   {
     img: `${antiquesDisplay}`,
-    text: "Antiques, figurines, and more." 
+    text: "Antiques, figurines, and more. Click on my Etsy link for a full line of antiques!" 
   },
 ]
 
