@@ -18,7 +18,7 @@ export default function PopArt() {
             </div>
           );
         })}
-      <Link exact to={"/michellestdarling"}>Back</Link>
+      <Link exact to={"/"}>Back</Link>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ export default function Antiques() {
             </div>
           );
         })}
-      <Link exact to={"/michellestdarling"}>Back</Link>
+      <Link exact to={"/"}>Back</Link>
       </div>
     </div>
     )
