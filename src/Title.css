@@ -40,7 +40,15 @@
   #circle h3:hover i{
       color: rgb(236, 131, 11);
       opacity: 1;
+      transform: rotate(360deg);
   }
+
+
+  .fa.fa-star-o {
+    transition: transform .5s linear;
+}
+
+
    
   i{
       font-size: .8em !important;
@@ -179,6 +187,8 @@
     /* box-shadow: 2px 5px 12px rgba(255, 166, 0, 0.644); */
     box-shadow: 2px 5px 12px rgba(255, 0, 0, 0.514);
 }
+
+
 
 @keyframes circleShadow{
     0%{ 
